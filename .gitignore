@@ -1,0 +1,19 @@
+# Connect IQ build output
+*.prg
+*.prg.debug.xml
+*-settings.json
+bin/
+gen/
+external-mir/
+internal-mir/
+
+# Developer key — never commit this
+developer_key
+developer_key.pem
+
+# Python leftovers
+.venv/
+__pycache__/
+*.pyc
+.env
+*.token

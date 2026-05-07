@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<strings>
+    <string id="AppName">Bike Maintenance</string>
+    <string id="LabelActiveBike">Active Bike</string>
+    <string id="LabelBike1">Bike 1</string>
+    <string id="LabelBike2">Bike 2</string>
+    <string id="LabelPartName">Part Name</string>
+    <string id="LabelKmThreshold">Km Interval (0=off)</string>
+    <string id="LabelDaysThreshold">Days Interval (0=off)</string>
+    <string id="LabelOverdue">Overdue Parts</string>
+    <string id="LabelDismiss">Press LAP to dismiss</string>
+    <string id="LabelKmToMaint">km to maint.</string>
+    <string id="LabelAllGood">All Good</string>
+    <string id="LabelNoActive">No active bike</string>
+</strings>

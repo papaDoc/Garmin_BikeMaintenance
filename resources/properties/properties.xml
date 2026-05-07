@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<properties>
+    <!-- Active bike: 0 = Bike 1, 1 = Bike 2 -->
+    <property id="activeBikeIndex" type="number">0</property>
+
+    <!-- Bike 1 -->
+    <property id="bike1Name" type="string">My Bike</property>
+
+    <property id="bike1Part1Name" type="string">Chain</property>
+    <property id="bike1Part1Description" type="string">Replace when stretched</property>
+    <property id="bike1Part1KmThreshold" type="number">2000</property>
+    <property id="bike1Part1DaysThreshold" type="number">0</property>
+
+    <property id="bike1Part2Name" type="string">Brake Pads</property>
+    <property id="bike1Part2Description" type="string">Check for wear indicators</property>
+    <property id="bike1Part2KmThreshold" type="number">5000</property>
+    <property id="bike1Part2DaysThreshold" type="number">0</property>
+
+    <property id="bike1Part3Name" type="string">Cassette</property>
+    <property id="bike1Part3Description" type="string">Replace with chain</property>
+    <property id="bike1Part3KmThreshold" type="number">8000</property>
+    <property id="bike1Part3DaysThreshold" type="number">0</property>
+
+    <property id="bike1Part4Name" type="string">Tires</property>
+    <property id="bike1Part4Description" type="string">Check tread and sidewalls</property>
+    <property id="bike1Part4KmThreshold" type="number">6000</property>
+    <property id="bike1Part4DaysThreshold" type="number">0</property>
+
+    <property id="bike1Part5Name" type="string">Bar Tape</property>
+    <property id="bike1Part5Description" type="string">Replace annually</property>
+    <property id="bike1Part5KmThreshold" type="number">0</property>
+    <property id="bike1Part5DaysThreshold" type="number">365</property>
+
+    <!-- Bike 2 -->
+    <property id="bike2Name" type="string">Bike 2</property>
+
+    <property id="bike2Part1Name" type="string">Chain</property>
+    <property id="bike2Part1Description" type="string">Replace when stretched</property>
+    <property id="bike2Part1KmThreshold" type="number">2000</property>
+    <property id="bike2Part1DaysThreshold" type="number">0</property>
+
+    <property id="bike2Part2Name" type="string">Brake Pads</property>
+    <property id="bike2Part2Description" type="string">Check for wear indicators</property>
+    <property id="bike2Part2KmThreshold" type="number">5000</property>
+    <property id="bike2Part2DaysThreshold" type="number">0</property>
+
+    <property id="bike2Part3Name" type="string">Cassette</property>
+    <property id="bike2Part3Description" type="string">Replace with chain</property>
+    <property id="bike2Part3KmThreshold" type="number">8000</property>
+    <property id="bike2Part3DaysThreshold" type="number">0</property>
+
+    <property id="bike2Part4Name" type="string">Tires</property>
+    <property id="bike2Part4Description" type="string">Check tread and sidewalls</property>
+    <property id="bike2Part4KmThreshold" type="number">6000</property>
+    <property id="bike2Part4DaysThreshold" type="number">0</property>
+
+    <property id="bike2Part5Name" type="string">Part 5</property>
+    <property id="bike2Part5Description" type="string"></property>
+    <property id="bike2Part5KmThreshold" type="number">0</property>
+    <property id="bike2Part5DaysThreshold" type="number">0</property>
+</properties>

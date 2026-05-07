@@ -1,0 +1,7 @@
+project.manifest = manifest.xml
+
+base.sourcePath = source
+base.resourcePath = resources
+
+edge840.sourcePath = $(base.sourcePath)
+edge840.resourcePath = $(base.resourcePath)
