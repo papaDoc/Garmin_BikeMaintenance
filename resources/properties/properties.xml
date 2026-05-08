@@ -1,61 +1,210 @@
 <?xml version="1.0"?>
 <properties>
-    <!-- Active bike: 0 = Bike 1, 1 = Bike 2 -->
+    <!-- Active bike: 0 = Bike 1 ... 4 = Bike 5 -->
     <property id="activeBikeIndex" type="number">0</property>
 
     <!-- Bike 1 -->
-    <property id="bike1Name" type="string">My Bike</property>
+    <property id="bike1Name" type="string">Le vieux</property>
+    <property id="bike1Model" type="string">Marinoni Turismo</property>
+    <property id="bike1PurchaseDate" type="string">1996</property>
+    <property id="bike1Description" type="string">Chainring: 52-42-30 Wheel width: 28mm</property>
 
-    <property id="bike1Part1Name" type="string">Chain</property>
-    <property id="bike1Part1Description" type="string">Replace when stretched</property>
-    <property id="bike1Part1KmThreshold" type="number">2000</property>
+    <property id="bike1Part1Name" type="string">Chaîne</property>
+    <property id="bike1Part1Description" type="string">Campagnolo 8 vitesses</property>
+    <property id="bike1Part1KmThreshold" type="number">6000</property>
     <property id="bike1Part1DaysThreshold" type="number">0</property>
+    <property id="bike1Part1CurrentKm" type="number">0</property>
+    <property id="bike1Part1LastServiceDate" type="string"></property>
 
-    <property id="bike1Part2Name" type="string">Brake Pads</property>
-    <property id="bike1Part2Description" type="string">Check for wear indicators</property>
-    <property id="bike1Part2KmThreshold" type="number">5000</property>
+    <property id="bike1Part2Name" type="string">Cassette</property>
+    <property id="bike1Part2Description" type="string">Cassette 8 vit 13-26</property>
+    <property id="bike1Part2KmThreshold" type="number">6000</property>
     <property id="bike1Part2DaysThreshold" type="number">0</property>
+    <property id="bike1Part2CurrentKm" type="number">0</property>
+    <property id="bike1Part2LastServiceDate" type="string"></property>
 
-    <property id="bike1Part3Name" type="string">Cassette</property>
-    <property id="bike1Part3Description" type="string">Replace with chain</property>
-    <property id="bike1Part3KmThreshold" type="number">8000</property>
+    <property id="bike1Part3Name" type="string">Part 3</property>
+    <property id="bike1Part3Description" type="string"></property>
+    <property id="bike1Part3KmThreshold" type="number">0</property>
     <property id="bike1Part3DaysThreshold" type="number">0</property>
+    <property id="bike1Part3CurrentKm" type="number">0</property>
+    <property id="bike1Part3LastServiceDate" type="string"></property>
 
-    <property id="bike1Part4Name" type="string">Tires</property>
-    <property id="bike1Part4Description" type="string">Check tread and sidewalls</property>
-    <property id="bike1Part4KmThreshold" type="number">6000</property>
+    <property id="bike1Part4Name" type="string">Part 4</property>
+    <property id="bike1Part4Description" type="string"></property>
+    <property id="bike1Part4KmThreshold" type="number">0</property>
     <property id="bike1Part4DaysThreshold" type="number">0</property>
+    <property id="bike1Part4CurrentKm" type="number">0</property>
+    <property id="bike1Part4LastServiceDate" type="string"></property>
 
-    <property id="bike1Part5Name" type="string">Bar Tape</property>
-    <property id="bike1Part5Description" type="string">Replace annually</property>
+    <property id="bike1Part5Name" type="string">Part 5</property>
+    <property id="bike1Part5Description" type="string"></property>
     <property id="bike1Part5KmThreshold" type="number">0</property>
-    <property id="bike1Part5DaysThreshold" type="number">365</property>
+    <property id="bike1Part5DaysThreshold" type="number">0</property>
+    <property id="bike1Part5CurrentKm" type="number">0</property>
+    <property id="bike1Part5LastServiceDate" type="string"></property>
 
     <!-- Bike 2 -->
-    <property id="bike2Name" type="string">Bike 2</property>
+    <property id="bike2Name" type="string">VR2</property>
+    <property id="bike2Model" type="string">Marinoni VR2</property>
+    <property id="bike2PurchaseDate" type="string">2011</property>
+    <property id="bike2Description" type="string">Chainring: 50-34 Wheel width: 25mm</property>
 
-    <property id="bike2Part1Name" type="string">Chain</property>
-    <property id="bike2Part1Description" type="string">Replace when stretched</property>
-    <property id="bike2Part1KmThreshold" type="number">2000</property>
-    <property id="bike2Part1DaysThreshold" type="number">0</property>
+    <property id="bike2Part1Name" type="string">Chaîne</property>
+    <property id="bike2Part1Description" type="string">Campagnolo Record 10 vit</property>
+    <property id="bike2Part1KmThreshold" type="number">6000</property>
+    <property id="bike2Part1DaysThreshold" type="number">730</property>
+    <property id="bike2Part1CurrentKm" type="number">0</property>
+    <property id="bike2Part1LastServiceDate" type="string"></property>
 
-    <property id="bike2Part2Name" type="string">Brake Pads</property>
-    <property id="bike2Part2Description" type="string">Check for wear indicators</property>
-    <property id="bike2Part2KmThreshold" type="number">5000</property>
+    <property id="bike2Part2Name" type="string">Cassette</property>
+    <property id="bike2Part2Description" type="string">Cassette 10 vit 12-25</property>
+    <property id="bike2Part2KmThreshold" type="number">6000</property>
     <property id="bike2Part2DaysThreshold" type="number">0</property>
+    <property id="bike2Part2CurrentKm" type="number">0</property>
+    <property id="bike2Part2LastServiceDate" type="string"></property>
 
-    <property id="bike2Part3Name" type="string">Cassette</property>
-    <property id="bike2Part3Description" type="string">Replace with chain</property>
-    <property id="bike2Part3KmThreshold" type="number">8000</property>
+    <property id="bike2Part3Name" type="string">Part 3</property>
+    <property id="bike2Part3Description" type="string"></property>
+    <property id="bike2Part3KmThreshold" type="number">0</property>
     <property id="bike2Part3DaysThreshold" type="number">0</property>
+    <property id="bike2Part3CurrentKm" type="number">0</property>
+    <property id="bike2Part3LastServiceDate" type="string"></property>
 
-    <property id="bike2Part4Name" type="string">Tires</property>
-    <property id="bike2Part4Description" type="string">Check tread and sidewalls</property>
-    <property id="bike2Part4KmThreshold" type="number">6000</property>
+    <property id="bike2Part4Name" type="string">Part 4</property>
+    <property id="bike2Part4Description" type="string"></property>
+    <property id="bike2Part4KmThreshold" type="number">0</property>
     <property id="bike2Part4DaysThreshold" type="number">0</property>
+    <property id="bike2Part4CurrentKm" type="number">0</property>
+    <property id="bike2Part4LastServiceDate" type="string"></property>
 
     <property id="bike2Part5Name" type="string">Part 5</property>
     <property id="bike2Part5Description" type="string"></property>
     <property id="bike2Part5KmThreshold" type="number">0</property>
     <property id="bike2Part5DaysThreshold" type="number">0</property>
+    <property id="bike2Part5CurrentKm" type="number">0</property>
+    <property id="bike2Part5LastServiceDate" type="string"></property>
+
+    <!-- Bike 3 -->
+    <property id="bike3Name" type="string">Le Mauve</property>
+    <property id="bike3Model" type="string">Marinoni Sterrato St</property>
+    <property id="bike3PurchaseDate" type="string">2023</property>
+    <property id="bike3Description" type="string">Chain ring: 40 Wheel width: 28mm, 34mm</property>
+
+    <property id="bike3Part1Name" type="string">Chaîne</property>
+    <property id="bike3Part1Description" type="string">Campagnolo Ekar 13 vit</property>
+    <property id="bike3Part1KmThreshold" type="number">6000</property>
+    <property id="bike3Part1DaysThreshold" type="number">730</property>
+    <property id="bike3Part1CurrentKm" type="number">0</property>
+    <property id="bike3Part1LastServiceDate" type="string"></property>
+
+    <property id="bike3Part2Name" type="string">Cassette</property>
+    <property id="bike3Part2Description" type="string">Cassette 14 vit 10-40</property>
+    <property id="bike3Part2KmThreshold" type="number">6000</property>
+    <property id="bike3Part2DaysThreshold" type="number">0</property>
+    <property id="bike3Part2CurrentKm" type="number">0</property>
+    <property id="bike3Part2LastServiceDate" type="string"></property>
+
+    <property id="bike3Part3Name" type="string">Part 3</property>
+    <property id="bike3Part3Description" type="string"></property>
+    <property id="bike3Part3KmThreshold" type="number">0</property>
+    <property id="bike3Part3DaysThreshold" type="number">0</property>
+    <property id="bike3Part3CurrentKm" type="number">0</property>
+    <property id="bike3Part3LastServiceDate" type="string"></property>
+
+    <property id="bike3Part4Name" type="string">Part 4</property>
+    <property id="bike3Part4Description" type="string"></property>
+    <property id="bike3Part4KmThreshold" type="number">0</property>
+    <property id="bike3Part4DaysThreshold" type="number">0</property>
+    <property id="bike3Part4CurrentKm" type="number">0</property>
+    <property id="bike3Part4LastServiceDate" type="string"></property>
+
+    <property id="bike3Part5Name" type="string">Part 5</property>
+    <property id="bike3Part5Description" type="string"></property>
+    <property id="bike3Part5KmThreshold" type="number">0</property>
+    <property id="bike3Part5DaysThreshold" type="number">0</property>
+    <property id="bike3Part5CurrentKm" type="number">0</property>
+    <property id="bike3Part5LastServiceDate" type="string"></property>
+
+    <!-- Bike 4 -->
+    <property id="bike4Name" type="string">Bike 4</property>
+    <property id="bike4Model" type="string"></property>
+    <property id="bike4PurchaseDate" type="string"></property>
+    <property id="bike4Description" type="string"></property>
+
+    <property id="bike4Part1Name" type="string">Part 1</property>
+    <property id="bike4Part1Description" type="string"></property>
+    <property id="bike4Part1KmThreshold" type="number">0</property>
+    <property id="bike4Part1DaysThreshold" type="number">0</property>
+    <property id="bike4Part1CurrentKm" type="number">0</property>
+    <property id="bike4Part1LastServiceDate" type="string"></property>
+
+    <property id="bike4Part2Name" type="string">Part 2</property>
+    <property id="bike4Part2Description" type="string"></property>
+    <property id="bike4Part2KmThreshold" type="number">0</property>
+    <property id="bike4Part2DaysThreshold" type="number">0</property>
+    <property id="bike4Part2CurrentKm" type="number">0</property>
+    <property id="bike4Part2LastServiceDate" type="string"></property>
+
+    <property id="bike4Part3Name" type="string">Part 3</property>
+    <property id="bike4Part3Description" type="string"></property>
+    <property id="bike4Part3KmThreshold" type="number">0</property>
+    <property id="bike4Part3DaysThreshold" type="number">0</property>
+    <property id="bike4Part3CurrentKm" type="number">0</property>
+    <property id="bike4Part3LastServiceDate" type="string"></property>
+
+    <property id="bike4Part4Name" type="string">Part 4</property>
+    <property id="bike4Part4Description" type="string"></property>
+    <property id="bike4Part4KmThreshold" type="number">0</property>
+    <property id="bike4Part4DaysThreshold" type="number">0</property>
+    <property id="bike4Part4CurrentKm" type="number">0</property>
+    <property id="bike4Part4LastServiceDate" type="string"></property>
+
+    <property id="bike4Part5Name" type="string">Part 5</property>
+    <property id="bike4Part5Description" type="string"></property>
+    <property id="bike4Part5KmThreshold" type="number">0</property>
+    <property id="bike4Part5DaysThreshold" type="number">0</property>
+    <property id="bike4Part5CurrentKm" type="number">0</property>
+    <property id="bike4Part5LastServiceDate" type="string"></property>
+
+    <!-- Bike 5 -->
+    <property id="bike5Name" type="string">Bike 5</property>
+    <property id="bike5Model" type="string"></property>
+    <property id="bike5PurchaseDate" type="string"></property>
+    <property id="bike5Description" type="string"></property>
+
+    <property id="bike5Part1Name" type="string">Part 1</property>
+    <property id="bike5Part1Description" type="string"></property>
+    <property id="bike5Part1KmThreshold" type="number">0</property>
+    <property id="bike5Part1DaysThreshold" type="number">0</property>
+    <property id="bike5Part1CurrentKm" type="number">0</property>
+    <property id="bike5Part1LastServiceDate" type="string"></property>
+
+    <property id="bike5Part2Name" type="string">Part 2</property>
+    <property id="bike5Part2Description" type="string"></property>
+    <property id="bike5Part2KmThreshold" type="number">0</property>
+    <property id="bike5Part2DaysThreshold" type="number">0</property>
+    <property id="bike5Part2CurrentKm" type="number">0</property>
+    <property id="bike5Part2LastServiceDate" type="string"></property>
+
+    <property id="bike5Part3Name" type="string">Part 3</property>
+    <property id="bike5Part3Description" type="string"></property>
+    <property id="bike5Part3KmThreshold" type="number">0</property>
+    <property id="bike5Part3DaysThreshold" type="number">0</property>
+    <property id="bike5Part3CurrentKm" type="number">0</property>
+    <property id="bike5Part3LastServiceDate" type="string"></property>
+
+    <property id="bike5Part4Name" type="string">Part 4</property>
+    <property id="bike5Part4Description" type="string"></property>
+    <property id="bike5Part4KmThreshold" type="number">0</property>
+    <property id="bike5Part4DaysThreshold" type="number">0</property>
+    <property id="bike5Part4CurrentKm" type="number">0</property>
+    <property id="bike5Part4LastServiceDate" type="string"></property>
+
+    <property id="bike5Part5Name" type="string">Part 5</property>
+    <property id="bike5Part5Description" type="string"></property>
+    <property id="bike5Part5KmThreshold" type="number">0</property>
+    <property id="bike5Part5DaysThreshold" type="number">0</property>
+    <property id="bike5Part5CurrentKm" type="number">0</property>
+    <property id="bike5Part5LastServiceDate" type="string"></property>
 </properties>

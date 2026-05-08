@@ -4,6 +4,9 @@
         <settingConfig type="list">
             <listEntry value="0">Bike 1</listEntry>
             <listEntry value="1">Bike 2</listEntry>
+            <listEntry value="2">Bike 3</listEntry>
+            <listEntry value="3">Bike 4</listEntry>
+            <listEntry value="4">Bike 5</listEntry>
         </settingConfig>
     </setting>
 
@@ -11,7 +14,15 @@
     <setting propertyKey="@Properties.bike1Name" title="Bike 1 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike1Model" title="Bike 1 Model">
+        <settingConfig type="alphaNumeric" maxLength="40"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1PurchaseDate" title="Bike 1 Purchase Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1Description" title="Bike 1 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
     <setting propertyKey="@Properties.bike1Part1Name" title="B1 Part 1 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -24,7 +35,12 @@
     <setting propertyKey="@Properties.bike1Part1DaysThreshold" title="B1 Part 1 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike1Part1CurrentKm" title="B1 Part 1 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1Part1LastServiceDate" title="B1 Part 1 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike1Part2Name" title="B1 Part 2 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -37,7 +53,12 @@
     <setting propertyKey="@Properties.bike1Part2DaysThreshold" title="B1 Part 2 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike1Part2CurrentKm" title="B1 Part 2 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1Part2LastServiceDate" title="B1 Part 2 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike1Part3Name" title="B1 Part 3 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -50,7 +71,12 @@
     <setting propertyKey="@Properties.bike1Part3DaysThreshold" title="B1 Part 3 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike1Part3CurrentKm" title="B1 Part 3 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1Part3LastServiceDate" title="B1 Part 3 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike1Part4Name" title="B1 Part 4 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -63,7 +89,12 @@
     <setting propertyKey="@Properties.bike1Part4DaysThreshold" title="B1 Part 4 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike1Part4CurrentKm" title="B1 Part 4 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1Part4LastServiceDate" title="B1 Part 4 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike1Part5Name" title="B1 Part 5 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -76,12 +107,26 @@
     <setting propertyKey="@Properties.bike1Part5DaysThreshold" title="B1 Part 5 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
+    <setting propertyKey="@Properties.bike1Part5CurrentKm" title="B1 Part 5 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike1Part5LastServiceDate" title="B1 Part 5 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
 
     <!-- Bike 2 -->
     <setting propertyKey="@Properties.bike2Name" title="Bike 2 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike2Model" title="Bike 2 Model">
+        <settingConfig type="alphaNumeric" maxLength="40"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2PurchaseDate" title="Bike 2 Purchase Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Description" title="Bike 2 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
     <setting propertyKey="@Properties.bike2Part1Name" title="B2 Part 1 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -94,7 +139,12 @@
     <setting propertyKey="@Properties.bike2Part1DaysThreshold" title="B2 Part 1 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike2Part1CurrentKm" title="B2 Part 1 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Part1LastServiceDate" title="B2 Part 1 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike2Part2Name" title="B2 Part 2 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -107,7 +157,12 @@
     <setting propertyKey="@Properties.bike2Part2DaysThreshold" title="B2 Part 2 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike2Part2CurrentKm" title="B2 Part 2 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Part2LastServiceDate" title="B2 Part 2 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike2Part3Name" title="B2 Part 3 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -120,7 +175,12 @@
     <setting propertyKey="@Properties.bike2Part3DaysThreshold" title="B2 Part 3 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike2Part3CurrentKm" title="B2 Part 3 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Part3LastServiceDate" title="B2 Part 3 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike2Part4Name" title="B2 Part 4 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -133,7 +193,12 @@
     <setting propertyKey="@Properties.bike2Part4DaysThreshold" title="B2 Part 4 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
     </setting>
-
+    <setting propertyKey="@Properties.bike2Part4CurrentKm" title="B2 Part 4 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Part4LastServiceDate" title="B2 Part 4 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
     <setting propertyKey="@Properties.bike2Part5Name" title="B2 Part 5 Name">
         <settingConfig type="alphaNumeric" maxLength="20"/>
     </setting>
@@ -145,5 +210,323 @@
     </setting>
     <setting propertyKey="@Properties.bike2Part5DaysThreshold" title="B2 Part 5 Days Interval">
         <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Part5CurrentKm" title="B2 Part 5 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike2Part5LastServiceDate" title="B2 Part 5 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+
+    <!-- Bike 3 -->
+    <setting propertyKey="@Properties.bike3Name" title="Bike 3 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Model" title="Bike 3 Model">
+        <settingConfig type="alphaNumeric" maxLength="40"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3PurchaseDate" title="Bike 3 Purchase Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Description" title="Bike 3 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part1Name" title="B3 Part 1 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part1Description" title="B3 Part 1 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part1KmThreshold" title="B3 Part 1 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part1DaysThreshold" title="B3 Part 1 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part1CurrentKm" title="B3 Part 1 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part1LastServiceDate" title="B3 Part 1 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part2Name" title="B3 Part 2 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part2Description" title="B3 Part 2 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part2KmThreshold" title="B3 Part 2 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part2DaysThreshold" title="B3 Part 2 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part2CurrentKm" title="B3 Part 2 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part2LastServiceDate" title="B3 Part 2 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part3Name" title="B3 Part 3 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part3Description" title="B3 Part 3 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part3KmThreshold" title="B3 Part 3 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part3DaysThreshold" title="B3 Part 3 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part3CurrentKm" title="B3 Part 3 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part3LastServiceDate" title="B3 Part 3 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part4Name" title="B3 Part 4 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part4Description" title="B3 Part 4 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part4KmThreshold" title="B3 Part 4 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part4DaysThreshold" title="B3 Part 4 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part4CurrentKm" title="B3 Part 4 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part4LastServiceDate" title="B3 Part 4 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part5Name" title="B3 Part 5 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part5Description" title="B3 Part 5 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part5KmThreshold" title="B3 Part 5 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part5DaysThreshold" title="B3 Part 5 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part5CurrentKm" title="B3 Part 5 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike3Part5LastServiceDate" title="B3 Part 5 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+
+    <!-- Bike 4 -->
+    <setting propertyKey="@Properties.bike4Name" title="Bike 4 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Model" title="Bike 4 Model">
+        <settingConfig type="alphaNumeric" maxLength="40"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4PurchaseDate" title="Bike 4 Purchase Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Description" title="Bike 4 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part1Name" title="B4 Part 1 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part1Description" title="B4 Part 1 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part1KmThreshold" title="B4 Part 1 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part1DaysThreshold" title="B4 Part 1 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part1CurrentKm" title="B4 Part 1 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part1LastServiceDate" title="B4 Part 1 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part2Name" title="B4 Part 2 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part2Description" title="B4 Part 2 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part2KmThreshold" title="B4 Part 2 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part2DaysThreshold" title="B4 Part 2 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part2CurrentKm" title="B4 Part 2 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part2LastServiceDate" title="B4 Part 2 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part3Name" title="B4 Part 3 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part3Description" title="B4 Part 3 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part3KmThreshold" title="B4 Part 3 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part3DaysThreshold" title="B4 Part 3 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part3CurrentKm" title="B4 Part 3 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part3LastServiceDate" title="B4 Part 3 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part4Name" title="B4 Part 4 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part4Description" title="B4 Part 4 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part4KmThreshold" title="B4 Part 4 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part4DaysThreshold" title="B4 Part 4 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part4CurrentKm" title="B4 Part 4 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part4LastServiceDate" title="B4 Part 4 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part5Name" title="B4 Part 5 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part5Description" title="B4 Part 5 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part5KmThreshold" title="B4 Part 5 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part5DaysThreshold" title="B4 Part 5 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part5CurrentKm" title="B4 Part 5 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike4Part5LastServiceDate" title="B4 Part 5 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+
+    <!-- Bike 5 -->
+    <setting propertyKey="@Properties.bike5Name" title="Bike 5 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Model" title="Bike 5 Model">
+        <settingConfig type="alphaNumeric" maxLength="40"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5PurchaseDate" title="Bike 5 Purchase Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Description" title="Bike 5 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part1Name" title="B5 Part 1 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part1Description" title="B5 Part 1 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part1KmThreshold" title="B5 Part 1 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part1DaysThreshold" title="B5 Part 1 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part1CurrentKm" title="B5 Part 1 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part1LastServiceDate" title="B5 Part 1 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part2Name" title="B5 Part 2 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part2Description" title="B5 Part 2 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part2KmThreshold" title="B5 Part 2 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part2DaysThreshold" title="B5 Part 2 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part2CurrentKm" title="B5 Part 2 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part2LastServiceDate" title="B5 Part 2 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part3Name" title="B5 Part 3 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part3Description" title="B5 Part 3 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part3KmThreshold" title="B5 Part 3 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part3DaysThreshold" title="B5 Part 3 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part3CurrentKm" title="B5 Part 3 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part3LastServiceDate" title="B5 Part 3 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part4Name" title="B5 Part 4 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part4Description" title="B5 Part 4 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part4KmThreshold" title="B5 Part 4 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part4DaysThreshold" title="B5 Part 4 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part4CurrentKm" title="B5 Part 4 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part4LastServiceDate" title="B5 Part 4 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part5Name" title="B5 Part 5 Name">
+        <settingConfig type="alphaNumeric" maxLength="20"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part5Description" title="B5 Part 5 Description">
+        <settingConfig type="alphaNumeric" maxLength="240"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part5KmThreshold" title="B5 Part 5 Km Interval">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part5DaysThreshold" title="B5 Part 5 Days Interval">
+        <settingConfig type="numeric" min="0" max="9999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part5CurrentKm" title="B5 Part 5 Current Km">
+        <settingConfig type="numeric" min="0" max="99999"/>
+    </setting>
+    <setting propertyKey="@Properties.bike5Part5LastServiceDate" title="B5 Part 5 Last Service Date">
+        <settingConfig type="alphaNumeric" maxLength="10"/>
     </setting>
 </settings>

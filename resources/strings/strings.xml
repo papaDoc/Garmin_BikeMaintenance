@@ -4,6 +4,9 @@
     <string id="LabelActiveBike">Active Bike</string>
     <string id="LabelBike1">Bike 1</string>
     <string id="LabelBike2">Bike 2</string>
+    <string id="LabelBike3">Bike 3</string>
+    <string id="LabelBike4">Bike 4</string>
+    <string id="LabelBike5">Bike 5</string>
     <string id="LabelPartName">Part Name</string>
     <string id="LabelKmThreshold">Km Interval (0=off)</string>
     <string id="LabelDaysThreshold">Days Interval (0=off)</string>

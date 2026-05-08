@@ -32,7 +32,7 @@ class PartState {
 
 class MaintenanceManager {
 
-    static const NUM_BIKES as Number = 2;
+    static const NUM_BIKES as Number = 5;
     static const NUM_PARTS as Number = 5;
 
     // Returns today's date as a "YYYY-MM-DD" string.
@@ -99,7 +99,12 @@ class MaintenanceManager {
         }
         var bikeState = state[bikeKey] as Dictionary;
         if (!bikeState.hasKey(partKey)) {
-            bikeState[partKey] = { "cumulativeKm" => 0.0f, "lastMaintenanceDate" => "" };
+            var prefix = "bike" + (bikeIndex + 1).toString() + "Part" + (partIndex + 1).toString();
+            var initKm   = Application.Properties.getValue(prefix + "CurrentKm") as Number or Null;
+            var initDate = Application.Properties.getValue(prefix + "LastServiceDate") as String or Null;
+            if (initKm   == null) { initKm   = 0; }
+            if (initDate == null) { initDate = ""; }
+            bikeState[partKey] = { "cumulativeKm" => initKm.toFloat(), "lastMaintenanceDate" => initDate };
         }
         return bikeState[partKey] as Dictionary;
     }
