@@ -3,5 +3,8 @@ project.manifest = manifest.xml
 base.sourcePath = source
 base.resourcePath = resources
 
+edge830.sourcePath = $(base.sourcePath)
+edge830.resourcePath = $(base.resourcePath)
+
 edge840.sourcePath = $(base.sourcePath)
 edge840.resourcePath = $(base.resourcePath)

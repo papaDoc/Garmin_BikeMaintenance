@@ -70,7 +70,9 @@ class BikeMaintView extends WatchUi.DataField {
         var overdue = MaintenanceManager.updateAfterRide(_activeBikeIndex, distanceMeters);
 
         if (overdue.size() > 0) {
-            var alertView     = new AlertView(overdue);
+            var bikeName = Application.Properties.getValue("bike" + (_activeBikeIndex + 1).toString() + "Name") as String or Null;
+            if (bikeName == null) { bikeName = "Bike " + (_activeBikeIndex + 1).toString(); }
+            var alertView     = new AlertView(bikeName, overdue);
             var alertDelegate = new AlertDelegate(alertView);
             WatchUi.pushView(alertView, alertDelegate, WatchUi.SLIDE_UP);
         }

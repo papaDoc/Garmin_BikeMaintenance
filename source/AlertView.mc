@@ -6,12 +6,14 @@ import Toybox.WatchUi;
 // Displays a scrollable list of part names and instructions to dismiss.
 class AlertView extends WatchUi.View {
 
+    private var _bikeName as String;
     private var _overdueParts as Array<PartConfig>;
     private var _scrollOffset as Number = 0;
     private static const LINES_VISIBLE as Number = 3;
 
-    function initialize(overdueParts as Array<PartConfig>) {
+    function initialize(bikeName as String, overdueParts as Array<PartConfig>) {
         View.initialize();
+        _bikeName = bikeName;
         _overdueParts = overdueParts;
     }
 
@@ -30,10 +32,17 @@ class AlertView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
         dc.drawText(w / 2, 8, Graphics.FONT_SMALL, "MAINTENANCE DUE", Graphics.TEXT_JUSTIFY_CENTER);
 
-        var nameH = dc.getFontHeight(Graphics.FONT_SMALL);
-        var descH = dc.getFontHeight(Graphics.FONT_XTINY);
+        var titleH = dc.getFontHeight(Graphics.FONT_SMALL);
+        var tinyH  = dc.getFontHeight(Graphics.FONT_XTINY);
+
+        // Bike name subtitle
+        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(w / 2, 8 + titleH + 2, Graphics.FONT_XTINY, _bikeName, Graphics.TEXT_JUSTIFY_CENTER);
+
+        var nameH = titleH;
+        var descH = tinyH;
         var itemH = nameH + descH + 4;
-        var startY = 8 + nameH + 6;
+        var startY = 8 + titleH + 2 + tinyH + 4;
 
         var count = _overdueParts.size();
         var end   = _scrollOffset + LINES_VISIBLE;
