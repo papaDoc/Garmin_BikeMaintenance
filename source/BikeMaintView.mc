@@ -11,6 +11,7 @@ class BikeMaintView extends WatchUi.DataField {
 
     private var _activeBikeIndex as Number = 0;
     private var _label as String = "";
+    private var _unit as String = "";
 
     function initialize() {
         DataField.initialize();
@@ -28,10 +29,13 @@ class BikeMaintView extends WatchUi.DataField {
         var kmRemaining = MaintenanceManager.kmToNextMaintenance(_activeBikeIndex);
         if (kmRemaining == null) {
             _label = WatchUi.loadResource(Rez.Strings.LabelAllGood) as String;
+            _unit  = "";
         } else if (kmRemaining <= 0.0f) {
             _label = "OVERDUE";
+            _unit  = "";
         } else {
-            _label = kmRemaining.format("%.0f") + " km";
+            _label = kmRemaining.format("%.0f");
+            _unit  = "km";
         }
 
         return _label;
@@ -53,8 +57,19 @@ class BikeMaintView extends WatchUi.DataField {
 
         // Main value
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, h / 2, Graphics.FONT_NUMBER_MEDIUM,
-                    _label, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        var numH = dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM);
+        var midY = h / 2;
+        if (_unit.length() > 0) {
+            // Number in large numeric font, unit in small text font below
+            dc.drawText(w / 2, midY - numH / 2, Graphics.FONT_NUMBER_MEDIUM,
+                        _label, Graphics.TEXT_JUSTIFY_CENTER);
+            dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w / 2, midY + numH / 2, Graphics.FONT_SMALL,
+                        _unit, Graphics.TEXT_JUSTIFY_CENTER);
+        } else {
+            dc.drawText(w / 2, midY, Graphics.FONT_LARGE,
+                        _label, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
     }
 
     // Called when the user saves the activity.
